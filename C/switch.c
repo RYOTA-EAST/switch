@@ -3,11 +3,13 @@
 enum color {
   red,
   blue,
+  black,
+  white,
 };
 
 int main(void){
   enum color color;
-  color = red;
+  color = black;
 
   switch(color){
     case red:
@@ -16,9 +18,15 @@ int main(void){
     case blue:
       printf("青");
       break;
+    case black:
+    case white:
+      printf("パンダの色");
+      // break;
     default:
       printf("他の色");
   }
 
   return 0;
 }
+
+// パンダの色
