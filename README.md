@@ -9,7 +9,8 @@
 |:-------:|:------------:|:---------------:|
 | python  | 3.10.0       | match           |
 | C(gcc)  | 13.0.0       | switch          |
-| Ruby    | 2.6.5        | case            |
+| Ruby    | 2.6.5        | case when       |
+| Ruby    | 3.0.0        | case in         |
 | VBA     | 16.56        | Select Case     |
 
 ## 処理
